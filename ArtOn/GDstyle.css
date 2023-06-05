@@ -1,0 +1,683 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+.nav {
+	background-color: #F7EFE5;
+	display: flex;
+	justify-content: space-between;
+	box-shadow: 0px 3px 7.5px rgba(0, 0, 0, 0.1);
+}
+
+.loginBtns-wrapper {
+	text-align: center;
+}
+
+
+.nav li {
+	display: inline-block;
+	padding: 15px;
+	margin-top: 40px;
+
+}
+
+.navv {
+	width: 40%;
+
+}
+
+
+.logo {
+	height: 90px;
+	margin-left: 20px;
+}
+
+.navbuttons {
+	text-decoration: none;
+	color: black;
+	display: inline-block;
+	padding: 5px;
+	border: none;
+	background-color:  #F7EFE5 ;
+	cursor: pointer;
+	
+}
+
+.signupButton {
+	text-decoration: none;
+	color: white;
+	border: 1px solid #00BF63;
+	background-color: #00BF63;
+	border-radius: 7px;
+	padding: 5px;
+	cursor: pointer;
+	
+}
+
+.signupButton:Hover {
+	color: black;
+	background-color: white;
+	border: 1px solid black;
+	transition: 0.3s;
+
+}
+
+.navbuttons:Hover {
+	color: #00BF63;
+	transition: 0.3s;
+}
+
+.nav2 {
+	display: flex;
+	justify-content: center;
+	background-color: #2B3467;
+}
+
+.nav2 li {
+	display: inline-flex;
+	margin: 10px;
+
+}
+
+.nav2 a {
+	color: white;
+	text-decoration: none;
+	border: 2px solid #2B3467;
+}
+
+.nav2 a:hover {
+	border-bottom: 2px solid white;
+
+}
+
+.Search {
+	display: flex;
+	justify-content: center;
+	width: 50%;
+}
+
+.Search input {
+
+	border: none;
+	height: 30%;
+	width: 60%;
+	margin-top: 55px;
+	border-radius: 6px;
+
+}
+
+.Search button {
+	width: 25px;
+	height: 25px;
+	margin-top: 57px;
+	border: none;
+	border-radius: 6px;
+	background-color: #FF3131;
+	cursor: pointer;
+
+}
+
+
+.div1 {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.cont1 {
+	width: 90%;
+	margin: auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	background-color: #87A2FB;
+	height: 350px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.div2 {
+	background-color: #3C4048;
+
+}
+
+.div2 h1 {
+	margin-left: 75px;
+	padding: 20px;
+	color: white;
+}
+
+
+
+.mostpopularitems {
+
+	background-color: #3C4048;
+	width: 20%;
+	display: inline-flex;
+	flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+.mostpopularitems button {
+
+	margin: 10px;
+	padding: 5px;
+	width: 70%;
+	background-color: #3AB4F2;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	color: white;
+
+}
+
+.mostpopularitems i {
+	color: #3AB4F2;
+	float: right;
+
+}
+
+.mostpopularitems button:hover {
+	background-color: #3C4048;
+	color: #3AB4F2;
+	transition: 0.2s;
+}
+
+
+.mostpopular img {
+	width: 70%;
+	margin: auto;
+
+
+}
+
+.mostpopular {
+	width: 100%;
+	background-color: #3C4048;
+	display: flex;
+	justify-content: space-evenly;
+
+
+}
+
+.cont3 {
+
+	width: 20%;
+	display: inline-flex;
+	flex-direction: column;
+	text-align: center;
+	margin-top: 10px;
+	cursor: pointer;
+
+
+}
+
+#logocataloug-dropDown, #webcataloug-dropDown, #archicataloug-dropDown, #artcataloug-dropDown
+, #marketingcataloug-dropDown, #fashioncataloug-dropDown {
+	display: inline-flex;
+	flex-direction: column;
+	text-align: center;
+	display: none;
+	position: relative;
+}
+
+
+
+.cont3 button {
+	padding: 10px;
+	background-color: white;
+	border: none;
+	text-align: left;
+	font-size: 16px;
+	cursor: pointer;
+	
+
+}
+
+.cont3 button:hover {
+	background-color: #B2B2B2;
+	color: white;
+	transition: 0.2s;
+}
+
+.cont3 i {
+	float: right;
+	
+	color: white;
+}
+
+
+.cont3 h2 {
+	margin: 10px;
+	text-align: left;
+}
+
+.div5 {
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+
+}
+
+.div5 img {
+	width: 100%;
+}
+
+.div4 {
+	text-align: center;
+	margin: 20px;
+}
+
+
+
+
+
+
+
+
+.Logform0.background {
+	background-color:  rgba(0, 0, 0, 0.4);
+	width: 100%;
+	height: 100%;
+	border: none;
+	z-index: 4;
+	padding: 0px;
+	margin: 0px;
+}
+
+.Logform0 {
+	background-color:  #F7EFE5;
+	justify-items: center;
+	width: 30%;
+	margin: auto;
+	border-radius: 6px;
+	border: 2px solid black;
+	display: none;
+	position: fixed;
+
+	right: 0px;
+	left: 0px;
+	top: 1px;
+	z-index: 5;
+  
+}
+.signinputs {
+	display: grid;
+	text-align: center;
+	justify-content: center;
+
+}
+
+.radioOP {
+	font-size: 10px;
+}
+
+
+
+.contwith  {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+.contwith button {
+	width: 70%;
+
+
+}
+
+.Logform0 img {
+	width: 50%;
+	object-fit: contain;
+	margin: auto;
+}
+
+form {
+	text-align: center;
+
+}
+
+.Logform0 button, .Logform0 input, .Logform0 h1 {
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+
+
+form .input {
+	border: none;
+	border-radius: 6px;
+
+}
+
+ .Sub {
+	background-color: #00BF63;
+	border-radius: 6px;
+	border: none;
+	cursor: pointer;
+
+}
+
+.Sub:hover {
+	background-color: white;
+	transition: 0.3s;
+}
+
+.Close {
+	background-color:#FF3131 ;
+	border-radius: 6px;
+	border: none;
+	cursor: pointer;
+}
+
+.Close:hover {
+	background-color: white;
+	transition: 0.3s;
+}
+
+.Facebook {
+	background-color: #2F58CD;
+	border: none;
+	border-radius: 10px;
+}
+
+.Google {
+	background-color: #EA5455;
+	
+	border: none;
+	border-radius: 10px;
+}
+
+.phone {
+	background-color: grey;
+	border: none;
+	border-radius: 10px;
+}
+
+#formbutton:hover {
+	background-color: white;
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+.footer {
+	background-color: #F7EFE5;
+	margin-top: 20px;
+}
+
+
+
+
+
+.cont8 {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	background-color: #F7EFE5;
+}
+
+.Fnav li  {
+	display: inline;
+	padding: 10px;
+
+}
+
+.Fnav {
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+	background-color: #F7EFE5;
+}
+
+.footer2,.footer3 {
+	display: flex;
+	justify-content:center;
+	background-color: #F7EFE5;
+}
+
+.footer2 i {
+	color: grey;
+	font-size: 30px;
+	padding: 20px;
+
+
+}
+
+.footer2 i:hover {
+	background-color:#B2B2B2 ;
+
+}
+
+.footer3 p {
+	font-size: 15px;
+	color: darkgray;
+}
+
+
+.logo-package {
+
+	width: 20%;
+	display: inline-flex;
+	flex-direction: column;
+	text-align: center;
+	margin-top: 10px;
+	margin: auto;
+	background-color: #0A4D68;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 6px;
+
+
+}
+
+
+
+.logo-package button {
+	padding: 10px;
+	background-color: #05BFDB;
+	border: none;
+	text-align: left;
+	font-size: 16px;
+	cursor: pointer;
+	
+
+}
+
+.logo-package button:hover {
+	background-color: #038396;
+	color: white;
+	transition: 0.2s;
+}
+
+
+
+.logo-package h2 {
+	margin: 10px;
+	text-align: left;
+}
+
+.logo-cont {
+	width: 80%;
+	margin: auto;
+	display: flex;
+	background-color: #F1F6F9;
+	display: none;
+	position: fixed;
+	right: 0px;
+	left: 0px;
+	top: 15%;
+	z-index: 5;
+	border-radius: 6px;
+
+}
+
+.logo-cont img {
+	width: 60%;
+	margin: auto;
+	margin-top: 10px;
+
+}
+
+.logo-package p {
+	text-align: left;
+	color: #DBDFEA;
+}
+
+.packageH2 {
+	text-align: center;
+	padding: 40px;
+	background-color: white;
+	margin-top: 10px;
+
+}
+
+.logo-package li {
+	text-align: left;
+	display: flex;
+	color: #DBDFEA;
+	padding: 5px;
+	margin-left: 5px;
+
+}
+
+.logo-package P {
+	padding: 20px;
+}
+
+.space li {
+	color: #0A4D68 ;
+}
+
+.logoExit-btn {
+font-size: 15px;
+width: 20px;
+height: 20px;
+border-radius: 50%;
+color: #F1F6F9;
+border: none;
+margin: 5px;
+cursor: pointer;
+background-color: #05BFDB;
+
+}
+
+.myCartPopUp h1 {
+	padding: 10px;
+}
+
+.cartItems {
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+
+.cartItems button {
+	border: none;
+	font-size: 10px;
+	cursor: pointer;
+	width: 30px;
+	padding: 5px;
+	
+	
+	
+}
+
+.plusMinus-cont {
+	display: flex;
+	margin-left: 20px;
+	padding-bottom: 10px;
+}
+
+.myCartPopUp {
+	display: none;
+	z-index: 5;
+	top: 20%;
+	right: 5%;
+	left: 5%;
+	margin: auto;
+
+	position: fixed;
+
+	background-color: white;
+}
+
+.myCartPopUp {
+	width: 50%;
+	margin: auto;
+	padding: 30px;
+	
+}
+
+.myCartItems {
+	padding: 10px;
+}
+
+.checkout-btn {
+	float: right;
+	padding: 10px;
+	border: none;
+	border-radius: 3px;
+	background-color: #00BF63;
+	cursor: pointer;
+	color: black;
+	text-decoration: none;
+
+}
+#checkout-price {
+	padding: 10px;
+	float: right;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	color: black;
+	text-decoration: none;
+}
+
+.paymentBtn {
+	padding-top: 200px;
+}
+
+#myCartItem {
+	padding: 10px;
+	
+}
+#myCartItemNumber {
+	padding: 10px;
+}
+
+.myCart-cont {
+	display: flex;
+	flex-direction: column;
+}
+.cart-btns {
+	width: 20px;
+	margin: 10px;
+	cursor: pointer;
+	
+}
+
+.cartplusminus {
+	display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://kit.fontawesome.com/ae649f4abc.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>ArtON Home</title>
+</head>
+<body>
+	<div class="nav">
+		<img class="logo" src="art.png">
+
+		<ul>
+			<li><p id="yourUsername"></p></li>
+			<li><button id="signUp-btn" class="item1" onclick="signUp()"> Sign-Up</button></li>
+			<li><button id="signIn-btn" class="item" onclick="Login()"> Sign-In</button></li>
+			
+		
+			<li><button class="item" onclick="contactus()"> Contact Us</button></li>
+			<li><button class="item" onclick=""> About Us</button></li>
+	        <li><button onclick="mycart()" class="item"><i class="fa-solid fa-cart-shopping"></i> My cart </button></li>
+		</ul>
+	</div>
+
+
+
+	<div class="nav2">
+		<ul>
+			<li><a class="item2" href="artSpecial.html"> ArtOn Plus  </a></li>
+			<li><a class="item2" href="GD.html">Graphics & Design</a></li>
+			<li><a class="item2" href="DM.html">Digital Marketing</a></li>
+			<li><a class="item2" href="Va.html">Video & Animation</a></li>
+			<li><a class="item2" href="#">Writing & Translation</a></li>
+			<li><a class="item2" href="#">Music & Audio</a></li>
+			<li><a class="item2" href="#">Programming & Tech</a></li>
+			
+		</ul>
+	</div>
+
+
+	<div class="background">
+		<div class="divleft">
+			<div class="title">
+		<h1>
+			All Your Digital needs is one<br> <i>CLICK</i> Away
+		</h1>
+	</div>
+	
+		<div class="searchbar">
+		<input type="text" placeholder="What service are you looking for... " name="">
+		<button><img src="search.png"> </button>
+	</div>
+
+
+	</div>
+		<div class="divright">
+		<img src="div1.png">
+	</div>
+
+	</div>
+	<div class="mostpopularS">
+		<h1><i>Most Popular Services</i></h1>
+
+	</div>
+	<div class="mostpopularcont">
+		<div  onmouseover="graphicsMouseOn()" class="mpcont" id="gdCont">
+			<div  class="mp-btn" id="gdCont">
+			<img class="Mphoto" src="1.png">
+		</div>
+			
+		</div>
+		<div onmouseleave="graphicsMouseOut()"  class="mpHover" id="gdHover">
+			<button class="grHover-btn">Logo & Branding<i class="fa-solid fa-arrow-right"></i></button>
+			  <button class="grHover-btn"> web & Design <i class="fa-solid fa-arrow-right"></i></button>
+			  <button class="grHover-btn"> Architecture Design <i class="fa-solid fa-arrow-right"></i></button>
+			<button class="grHover-btn">Art & illustration<i class="fa-solid fa-arrow-right"></i></button>
+			  <button class="grHover-btn"> Marketing Design <i class="fa-solid fa-arrow-right"></i></button>
+			</div>
+	
+		<div onmouseover="videoMouseOn()" class="mpcont" id="vdCont">
+			<div class="mp-btn" id="vdCont"><img class="Mphoto" src="2.png"></div>
+		</div>
+		<div onmouseleave="videoMouseOut()"  class="vdCont" id="vdHover">
+			<button class="vdHover-btn">Video ads<i class="fa-solid fa-arrow-right"></i></button>
+			  <button class="vdHover-btn"> Social Media Videos<i class="fa-solid fa-arrow-right"></i></button>
+			  <button class="vdHover-btn"> Editing & Post-Production <i class="fa-solid fa-arrow-right"></i></button>
+			<button class="vdHover-btn">Animation<i class="fa-solid fa-arrow-right"></i></button>
+			 
+			</div>
+		
+		<div onmouseover="progMouseOn()"  class="mpcont" id="progCont">
+			<div class="mp-btn" id="progCont"><img class="Mphoto" src="4.png"></div>
+		</div>
+		<div onmouseleave="progMouseOut()"  class="progCont" id="progHover">
+			<button class="progHover-btn">Websites<i class="fa-solid fa-arrow-right"></i></button>
+			  <button class="progHover-btn">Website Platforms<i class="fa-solid fa-arrow-right"></i></button>
+			  <button class="progHover-btn"> Application Development <i class="fa-solid fa-arrow-right"></i></button>
+			<button class="progHover-btn">Cybersecurity<i class="fa-solid fa-arrow-right"></i></button>
+			 
+			</div>
+				<div class="mpcont" id="plusCont">
+					<button class="mp-btn" id="plusCont"><img class="Mphoto" src="3.png"></button>
+		</div>
+		
+	</div>
+	
+
+
+		<h1 class="youNeedith1">You need it, we've got it</h1>
+
+		<div class="catalog-cont">
+		
+			<div class="catalog-items">
+				
+				<i class="fa-solid fa-pen-ruler"></i><br>
+				<a href="#">
+				Graphics & Design
+				</a>
+			</div>
+		    <div class="catalog-items">
+			
+				<i class="fa-solid fa-comments-dollar"></i><br>
+				<a href="#">
+				Digital Marketing
+			    </a>
+			</div>
+			<div class="catalog-items">
+			<i class="fa-solid fa-pencil"></i><br>
+			<a href="#">
+			Writing & Translation
+			</a>
+			</div>
+			
+		</div>
+		<div class="catalog-cont">
+			<div class="catalog-items">
+				
+				<i class="fa-solid fa-photo-film"></i><br>
+				<a href="#">
+				Video & Animation
+				</a>
+			</div>
+			<div class="catalog-items">
+				
+				<i class="fa-solid fa-music"></i><br>
+				<a href="#">
+				Music & Audio
+				</a>
+			</div>
+			<div class="catalog-items">
+				
+				<i class="fa-solid fa-microchip"></i><br>
+				<a href="#">
+				Programming & Tech
+				</a>
+			</div>
+			</div>
+
+			<div class="div4">
+				<div class="con3">
+					<h1> Become a <i>Seller</i></h1>
+					<p><Lorem> ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+				<a href="#"> <b>JOIN US! </b></a>
+					
+				</div>
+				<div class="con4">
+					<img src="5.png">
+					
+				</div>
+			</div>
+
+
+		<div class="div6">
+			<div class="cont6">
+						<img src="6.png">
+					</div>
+						<div class="cont9">
+						<h1>Join us and get your best<i> Online Experince</i></h1>
+						<p><Lorem >ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						<button>Get Started</button>
+
+			</div>
+			
+		</div>
+
+		<div class="Logform0 background" id="BackgroundPopup" onclick="Close()">
+			
+		</div>
+
+		<div class="Logform0" id="LoginForm">
+			<form>
+				<img src="art.png">
+				<h1>Sign-In</h1>
+				<input class="input" id="username-input"  type="text" placeholder="Username" >
+				<input class="input" id="password-input" type="password" placeholder="password" name=""><br>
+				
+				
+				
+			</form>
+			<div class="loginBtns-wrapper">
+				<p id="filltheInfo">ads</p>
+			<button class="Sub" id="username-input" onclick="printUsername()" >submit</button>
+			<button class="Close" onclick="Close()">Close</button>
+			</div>
+			<hr>
+			<div class="contwith">
+				
+				
+				<button class="Google" id="formbutton"><i class="fa-brands fa-google"></i> Countinue with Google</button>
+				<button class="Facebook" id="formbutton"> <i class="fa-brands fa-facebook"></i> Countinue with Facebook</button>
+				<button class="phone" id="formbutton"><i class="fa-solid fa-mobile-screen-button"></i> Countinue with Phone number</button>
+			</div>
+			
+		</div>
+
+		<div class="Logform0" id="SigninForm">
+			<form>
+				<img src="art.png">
+                <div class="signinputs">
+				<h1>Sign-Up</h1>
+                <input class="input" id="InfoInput" type="text" placeholder="Name">
+                <input class="input" id="username-input" type="text" placeholder="Username">
+				<input class="input" id="InfoInput"  type="email" placeholder="Email" name>
+				<input class="input" id="InfoInput"  type="password" placeholder="New password" name="">
+                <input class="input"  id="InfoInput" type="password" placeholder=" re-enter password" name="">
+         
+                <div class="radio">
+                <input class="radioOP" type="radio" id="contactChoice1" name="Gender" value="Male" />
+                <label class="radioOP" for="contactChoice1">Male</label>
+                <input class="radioOP" type="radio" id="contactChoice2" name="Gender" value="Female" />
+                <label class="radioOP" for="contactChoice2">Female</label>
+                </div>
+
+                </div>
+				</form>
+                
+				<div class="loginBtns-wrapper">
+				<button class="Sub" onclick="printUsername()">Submit</button>
+				<button class="Close" onclick="Close()">Close</button>
+				</div>
+		
+			<hr>
+			<div class="contwith">
+				
+				<button class="Google" id="formbutton"><i class="fa-brands fa-google"></i> Countinue with Google</button>
+				<button class="Facebook" id="formbutton"> <i class="fa-brands fa-facebook"></i> Countinue with Facebook</button>
+				<button class="phone" id="formbutton"><i class="fa-solid fa-mobile-screen-button"></i> Countinue with Phone number</button>
+			</div>
+			
+		</div>
+
+	<div class="footer">
+		<div class="cont8">
+		<img class="logo" src="art.png">
+	</div>
+		<div class="Fnav">
+
+		<ul>
+			<li><button class="item" onclick="signUp()"> Sign-Up</button></li>
+			<li><button class="item" onclick="Login()"> Sign-In</button></li>
+			<li><button class="item" onclick="contactus()"> Contact Us</button></li>
+			<li><button class="item" onclick=""> About Us</button></li>
+
+		</ul>
+	</div>
+	</div>
+	<hr>
+	<div class="footer2">
+		<a href="#"><i class="fa-brands fa-facebook"></i></a>
+		<a href="#"><i class="fa-brands fa-instagram"></i></a>
+		<a href="#"><i class="fa-brands fa-twitter"></i></a>
+		<a href="#"><i class="fa-brands fa-linkedin"></i></a>
+		
+	</div>
+	<div class="footer3">
+		<p><i class="fa-regular fa-copyright"></i> Art ON, inc</p>
+	</div>
+
+
+		
+
+
+
+	
+	
+	
+
+<script src="MyJava.js">
+	
+</script>
+</body>
+</html>
